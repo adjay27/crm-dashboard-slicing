@@ -1,12 +1,14 @@
 import Image from "next/image";
 import HeroSection from "@/pages/HeroSection";
 import SocialProof from "@/pages/SocialProof";
+import Feature from "@/pages/Feature";
 
 export default function Home() {
   return (
     <main>
       <HeroSection />
       <SocialProof />
+      <Feature />
     </main>
     // <main className="flex min-h-screen flex-col items-center justify-between p-24">
     //   <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
